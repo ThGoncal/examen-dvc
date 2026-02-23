@@ -1,2 +1,55 @@
-/venv
-/clean_data.csv
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# uv
+uv.lock
+.python-version
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Byte-compiled / cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter notebooks
+notebooks/
+.ipynb_checkpoints/
+
+# DotEnv
+.env
+
+# DVC
+/dvc_remote
+
+# Fichiers générés par le pipeline DVC
+data/processed_data/
+metrics/
+models/
+
+# Données (gérées par DVC)
+#/data/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Modèles et fichiers lourds
+*.joblib
+*.pkl
+*.h5
