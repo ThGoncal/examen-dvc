@@ -34,9 +34,9 @@ notebooks/
 /dvc_remote
 
 # Fichiers générés par le pipeline DVC
-data/processed_data/
-metrics/
-models/
+/data/processed_data/
+/metrics/
+/models/
 
 # Données (gérées par DVC)
 #/data/
